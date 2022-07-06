@@ -1,5 +1,6 @@
 # create a variable called name. Set the value of name to input received from user.
 
+
 # create a variable called age, set the value to the age of given by the user input.
 
 # check the type of the age (must use the print function)

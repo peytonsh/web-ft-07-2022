@@ -1,4 +1,6 @@
 # DigitalCrafts - Web-FT-07-2022
+# here are my notes
+
 
 Welcome to DigitalCrafts!
 

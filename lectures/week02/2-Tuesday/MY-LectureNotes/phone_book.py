@@ -46,9 +46,9 @@ def list_all():
         print(f"found entry for {x}: {phonebook[x]}")
         
         
-def quit_and_save():
-  with open('phonebook.pickle', 'wb') as filehandler:
-    pickle.dump(phonebook, filehandler)
+def quit():
+  with open('phonebook.pickle', 'wb') as fh:
+    pickle.dump(phonebook, fh)
   print('GoodBye!')
 
     

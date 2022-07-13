@@ -1,3 +1,12 @@
+import pickle
+
+
+try: 
+    with open('phonebook.pickle', 'rb') as fh:
+        phonebook = pickle.load(fh)
+
+except:
+    phonebook = {'pey' : 1234}
 
 
 
@@ -8,32 +17,26 @@
 
 
 
-
-
-
-
-phonebook = {}
 
 def look_up ():
     print("look up entry?"   )
-    response = str(input())
-    for name in phonebook:
-        if name == response:
-            print(f"name: {response} found entry for {response}: {phonebook[response]}")
+    response = input()
+    print(phonebook.get[response])
+   
    
             
 def set_up ():
     print("name of person you want to add?"   )
-    personName = str(input())
+    personName = input()
     print("what is your phone numbr?"  )
-    personNumber = str(input())
+    personNumber = input()
     phonebook[personName] = personNumber
     print(f'entry stored for {personName}')
     
 
 def delete_entry ():
     print("who do you want to delete?  ")
-    personName = str(input())
+    personName = input()
     print(f'delete entry for {personName}')
     del phonebook[personName] 
     
@@ -43,8 +46,11 @@ def list_all():
         print(f"found entry for {x}: {phonebook[x]}")
         
         
-def quit():
-    print("goodbye")
+def quit_and_save():
+  with open('phonebook.pickle', 'wb') as filehandler:
+    pickle.dump(phonebook, filehandler)
+  print('GoodBye!')
+
     
     
 while True: 

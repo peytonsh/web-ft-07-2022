@@ -75,8 +75,70 @@
 
 
 
-let num = 45623556567822 
+// let num = 45623556567822 
 
-let numStr = num.toString() 
+// let numStr = num.toString() 
 
-console.log(`first ${numStr[0]} last ${numStr[numStr.length - 1]}`);
+// sum = numStr[0] + numStr[numStr.length - 1]
+
+// console.log(sum);
+
+
+// let word ='love'
+
+// for (let i = 0; i < word.length; i++){
+//     console.log(word[i]
+//         )
+// }
+
+// let word = 'mississippi'
+
+// for(let i = 0; i < word.length; i++){
+//     console.log(word[i])
+// }
+
+// let str2 = "don’t know why";
+
+// let havey = "false"
+
+// for(let i = 0; i < str2.length; i++){
+//     if (str[i] == 'y'){
+//     havey = true};
+//     else {
+//         havey = false
+//         console.log('no')}
+
+// }
+
+// arr =[1,2,3,4]
+
+// for (let i = 0; i < arr.length; i++){
+//     console.log(arr[i])
+// }
+
+// let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+// for (let index = 0; index < days.length; index++) {
+//     console.log(days[index]);
+    
+// }
+
+
+// let newArray = []
+
+// for( let i = 1; i <= 100; i++){
+//     if(i % 12 == 0){
+//         newArray.push(i)
+
+   
+//     }
+// }
+// console.log(newArray)
+
+arr = [1,2,3,4,5,6]
+
+for( let i = 0; i <= arr.length; i++){
+    if(arr[i] % 2 == 0){
+
+    console.log(arr[i])}
+}

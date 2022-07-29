@@ -135,10 +135,33 @@
 // }
 // console.log(newArray)
 
-arr = [1,2,3,4,5,6]
+// arr = [1,2,3,4,5,6]
 
-for( let i = 0; i <= arr.length; i++){
-    if(arr[i] % 2 == 0){
+// for( let i = 0; i <= arr.length; i++){
+//     if(arr[i] % 2 == 0){
 
-    console.log(arr[i])}
+//     console.log(arr[i])}
+// }
+
+// use a for loop to sum the elements in the arr
+
+arr = [1,3,5,8,12]
+newArray = 0
+
+for(let i = 0; i < arr.length; i++){
+    newArray += arr[i]
+    
 }
+console.log(newArray);
+
+
+let sales = [17.2, 16.5, 18.3, 19.3, 17.8, 21.3, 22.4,
+    22.0, 19.9, 23.3, 21.7, 22.2];
+
+    min = sales[0]
+    max = sales[0]
+    sum=0
+    for(let i = 1; i < sales.length; i++){
+        if()
+    }
+    console.log(max)
